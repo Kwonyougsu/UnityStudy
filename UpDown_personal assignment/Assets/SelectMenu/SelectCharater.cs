@@ -15,7 +15,7 @@ public class SelectCharater : MonoBehaviour
         CharacterList.SetActive(false);
     }
 
-    public void OnClick(int characterIndex)
+    public void SelectCharacter(int characterIndex)
     {
         characterImage.sprite = characterSprites[characterIndex];
         CloseCharacterSelectionPopup();
