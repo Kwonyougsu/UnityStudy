@@ -8,12 +8,10 @@ public partial class TopDownAimRotation : MonoBehaviour
     {
         tf = transform;
     }
-
     // Update is called once per frame
     void Update()
     {
         Vector2 mousePos = Input.mousePosition;
-
         Vector3 target = Camera.main.ScreenToWorldPoint(mousePos);
 
         if (target.x < tf.position.x)
