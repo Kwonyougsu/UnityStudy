@@ -20,7 +20,7 @@ public partial class PlayerNameInput : MonoBehaviour
     {
         InputPlayerName = playerNameInputField.text;
         PlayerPrefs.SetString("Player Name", InputPlayerName);
-        PlayerPrefs.Save();
+        //PlayerPrefs.Save();
     }
     
 
@@ -29,16 +29,8 @@ public partial class PlayerNameInput : MonoBehaviour
         InputName();
         if ((InputPlayerName.Length > 2 || InputPlayerName.Length < 11) && InputPlayerName.Length != 0 && InputPlayerName.Length != 1)
         {
-            Debug.Log(InputPlayerName.Length);
             SceneManager.LoadScene("MainScene");
-            if (PlayerPrefs.HasKey("Player Name"))
-            {
-                playerNameInputField.text = InputPlayerName;
-            }
-            else
-            {
-                SceneManager.LoadScene("Title");
-            }
+  
         }
         else
         {
