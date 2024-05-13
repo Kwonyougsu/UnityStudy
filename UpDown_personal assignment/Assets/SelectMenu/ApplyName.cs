@@ -19,7 +19,7 @@ public class ApplyName :MonoBehaviour
     {
         if (PlayerPrefs.HasKey("Player Name"))
         {
-            playerName.text = string.Format(PlayerPrefs.GetString("Player Name"));
+            playerName.text = PlayerPrefs.GetString("Player Name");
         }
     }
 }

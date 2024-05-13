@@ -1251,9 +1251,8 @@ GameObject:
   - component: {fileID: 1667356927}
   - component: {fileID: 1667356926}
   - component: {fileID: 1667356929}
-  - component: {fileID: 1667356930}
   m_Layer: 5
-  m_Name: SelectCharater
+  m_Name: ViewCharacter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1386,23 +1385,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CharacterList: {fileID: 1073327471}
   select: {fileID: 1667356926}
---- !u!114 &1667356930
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1667356924}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 488fd96fe3f3c734b9ee5d1a3b7a12f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CharacterList: {fileID: 1073327471}
-  characterImage: {fileID: 234985387}
-  characterSprites:
-  - {fileID: 21300000, guid: 8492b49a45c166041a07b15c5a2c2300, type: 3}
-  - {fileID: 21300000, guid: 6e48ef5623949af488eadda5b8d59549, type: 3}
 --- !u!1 &1681169102
 GameObject:
   m_ObjectHideFlags: 0
